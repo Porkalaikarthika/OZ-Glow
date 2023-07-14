@@ -100,7 +100,7 @@ body, ul, li, p, a, label, input, div {
 }
 
 .card-img-top {
-  height: 40vh;
+  /* height: 40vh; */
   width: 100%;
 }
 

@@ -43,10 +43,10 @@
 
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light shadow nav-area">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+            <a class="navbar-brand text-success logo h1 align-self-center app-title" href="index.html">
                 OZ Glow
             </a>
 
@@ -61,7 +61,7 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#footer">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#shop">Shop</a>
@@ -85,9 +85,9 @@
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a hidden class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
                     </a>
@@ -115,48 +115,44 @@
         </div>
     </div>
 
-
-
     <!-- Start Banner Hero -->
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
+        <div class="container">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
                             <img class="img-fluid" src="./assets/images/woman-hairdresser-salon.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>OZ glow</b></h1>
-                                <h3 class="h2">Stylist industry</h3>
+                                <h3 class="h2 text-center text-primary">Welcome to</h3>
+                                <h3 class="h2 text-center app-title-darker">OZ Stylist industry</h3>
                                 <p>
-                                    OZ Glow Stylist industry is a small scale industry that produces hair care uses like shampoo, 
+                                    A small scale industry that produces hair care uses like shampoo, 
                                     conditioner, Anti Itching hair spray, Texturizer, Anti Breakages cream, moisturizing cream, scalp treatment spray, hair treatment cream, hair growth cream, Style Gel , ordinary hair cream, etc.
-                                     
+                                        
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
+                <div class="carousel-item">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/images/beauty-portrait-ginger-woman-with-flower-hair-sitting-by-mirror-table-with-bottle-lotion-while-looking-away.jpg" alt="">
+                            <img class="img-fluid" src="./assets/images/beauty-woman.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">OZ glow</h1>
-                                <h3 class="h2">Stylist Industry</h3>
+                                <h3 class="h2 text-center text-primary">Your No. 1 Stylist industry</h3>
+                                <h3 class="h2 text-center text-primary app-title-darker">Effective, Available & Highly demanded product.</h3>
                                 <p>
-                                    OZ Glow Stylist runs his business in daily basis, It supplies to both wholesalers and retailers. OZ Glow Stylist products are very effective due to its high organic contains. OZ Glow Stylist products can  easily be accessed due to its availability in the market. Because of it's affordability, the risk of importation is reduced, the high cost of some foreign products are reduced. OZ Glow Stylist products effectiveness and accessibilities attracts huge buyers and investors. 
+                                    We supplies to both wholesalers and retailers effective products with high organic contents. 
+                                    Our products are easily accessed due to its affordability and availability in the market. 
                                     It has it major distributor in Onitsha main market, Anambra State.
                                 </p>
                             </div>
@@ -164,26 +160,45 @@
                     </div>
                 </div>
             </div>
-          
+            <a class="carousel-control-prev text-decoration-none" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next text-decoration-none" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
         </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
     </div>
     <!-- End Banner Hero -->
 
 
 
 
+    <section class="about section bg-primary text-white pt-4 pb-4">
+        <div class="container" id="about">
+            <h2 class="about-header text-center mb-4">About Us <hr class="hr-sm"/></h2>
+            <p>
+                OZ Glow Stylist industry is a small scale industry that produces hair care uses like shampoo, 
+                conditioner, Anti Itching hair spray, Texturizer, Anti Breakages cream, 
+                moisturizing cream, scalp treatment spray, hair treatment cream, hair growth cream, 
+                Style Gel , ordinary hair cream, etc.
+            </p>
+            <p>
+                OZ Glow Stylist runs his business in daily basis, supplying to both wholesalers and 
+                retailers. Our products are very effective due to its high organic contains. 
+                OZ Glow Stylist products can  easily be accessed due to its availability in the market. 
+                Because of it's affordability, the risk of importation is reduced, the high cost of some 
+                foreign products are reduced. OZ Glow Stylist products effectiveness and accessibilities 
+                attracts huge buyers and investors. 
+                It has it major distributor in Onitsha main market, Anambra State.
+            </p>
+        </div>
+    </section>
     <!-- Start Featured Product -->
     <section class="bg-light">
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1" id="shop">Featured Product</h1>
+                    <h1 class="text-primary" id="shop">Featured Product <hr class="hr-sm" /></h1>
                     <p>
                         OZ Glow Stylist industry produces wide range of hair care uses like shampoo, conditioner, Anti Itching hair spray, Texturizer, Anti Breakages cream, moisturizing cream, scalp treatment spray, hair treatment cream, hair growth cream, Style Gel , ordinary hair cream, etc. 
                     </p>
@@ -193,7 +208,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         
-                            <img src="./assets/images/WhatsApp Image 2023-07-09 at 2.46.43 AM (1).jpeg" class="card-img-top" alt="...">
+                            <img src="./assets/images/conditioner-bottle.png" class="card-img-top" alt="...">
                        
                         <div class="card-body">
                           
@@ -205,14 +220,14 @@
                                 Conditioning of hair after washing with shampoo,It makes the hair soft, shiny and easy to comb.
                             </p>
                             <p class="text-muted">Reviews (24)</p>
-                            <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                            <p class="text-center"><a class="btn btn-primary">Add To Cart</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         
-                            <img src="./assets/images/WhatsApp Image 2023-07-09 at 2.46.44 AM.jpeg" class="card-img-top" alt="...">
+                            <img src="./assets/images/wivon-shampo.png" class="card-img-top" alt="...">
                         
                         <div class="card-body">
                             
@@ -224,14 +239,14 @@
                                 First mix with clean water, allowed to dissolve well before using it on hair, provide a deeper cleanse.
                             </p>
                             <p class="text-muted">Reviews (48)</p>
-                            <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                            <p class="text-center"><a class="btn btn-primary">Add To Cart</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                        
-                            <img src="./assets/images/WhatsApp Image 2023-07-09 at 2.46.44 AM (1).jpeg" class="card-img-top" alt="...">
+                            <img src="./assets/images/hair-treatment.png" class="card-img-top" alt="...">
                         
                         <div class="card-body">
                             
@@ -243,7 +258,7 @@
                                 Treatment of every kinds of itching such as lice, dandruff, ringworm, wig. Spray on the hair and roots, cover with nylon.
                             </p>
                             <p class="text-muted">Reviews (74)</p>
-                            <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                            <p class="text-center"><a class="btn btn-primary">Add To Cart</a></p>
                         </div>
                     </div>
                 </div>
@@ -252,7 +267,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         
-                            <img src="./assets/images/WhatsApp Image 2023-07-09 at 2.46.44 AM (2).jpeg" class="card-img-top" alt="...">
+                            <img src="./assets/images/texturizer.png" class="card-img-top" alt="...">
                        
                         <div class="card-body">
                           
@@ -264,14 +279,14 @@
                                 Use on virgin hair for soften,easy combing. Apply, comb and allow to stay for 10-15 mins then wash.
                             </p>
                             <p class="text-muted">Reviews (24)</p>
-                            <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                            <p class="text-center"><a class="btn btn-primary">Add To Cart</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         
-                            <img src="./assets/images/WhatsApp Image 2023-07-09 at 2.46.45 AM (1).jpeg" class="card-img-top" alt="...">
+                            <img src="./assets/images/break-no-more.png" class="card-img-top" alt="...">
                         
                         <div class="card-body">
                             
@@ -283,14 +298,14 @@
                                 Use on every kinds of hair to stop hair breakage,hair loss,tangling of hair and hardness of hair.
                             </p>
                             <p class="text-muted">Reviews (48)</p>
-                            <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                            <p class="text-center"><a class="btn btn-primary">Add To Cart</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                        
-                            <img src="./assets/images/WhatsApp Image 2023-07-09 at 2.46.45 AM.jpeg" class="card-img-top" alt="...">
+                            <img src="./assets/images/4-actions.png" class="card-img-top" alt="...">
                         
                         <div class="card-body">
                             
@@ -302,7 +317,7 @@
                                 4 actions: hair treatmentcream is use for hair line growth, treatment of alopecia, dermatitis and breakages.
                             </p>
                             <p class="text-muted">Reviews (74)</p>
-                            <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                            <p class="text-center"><a class="btn btn-primary">Add To Cart</a></p>
                         </div>
                     </div>
                 </div>
@@ -314,11 +329,15 @@
 
     
 
-    <div class="container py-5">
+    <div class="py-5 contact-section">
         <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form">
+            <form class="col-md-9 m-auto" method="post" role="form"
+                action="https://formspree.io/f/xbjevpkn">
                 <div class="row">
-                    <h3 class="h2 text-success text-center" id="contact">Contact me</h3>
+                    <h3 class="h2 text-warning text-center" id="contact">Contact Us<hr class="hr-sm"/></h3>
+                    <div class="mb-4">
+                        <p class="text-white text-center">Have a question? we are here to help.</p>
+                    </div>
                     <div class="form-group col-md-6 mb-3">
                         <label for="inputname">Name</label>
                         <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
@@ -338,13 +357,19 @@
                 </div>
                 <div class="row">
                     <div class="col text-center mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3 text-center">Let’s Talk</button>
+                        <button type="submit" 
+                            class="btn btn-lg px-3 text-center contact-button">
+                            Let’s Talk
+                        </button>
                     </div>
                 </div>
             </form>
+
         </div>
     </div>
-
+    <div class="map container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d819.9736941578487!2d6.774095973176233!3d6.14884501751726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDgnNTUuNiJOIDbCsDQ2JzI2LjUiRQ!5e1!3m2!1sen!2sng!4v1689370471152!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
@@ -352,7 +377,7 @@
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">OZ Glow Stylist Industry</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light app-title">OZ Glow Stylist Industry</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
@@ -370,7 +395,7 @@
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <h2 class="text-light border-bottom pb-3 border-light">Products</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Powdered shampoo</a></li>
                         <li><a class="text-decoration-none" href="#">Hair treatment cream</a></li>
@@ -383,13 +408,13 @@
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <h2 class="text-light border-bottom pb-3 border-light">Further Info</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
+                        <li><a class="text-decoration-none" href="/">Home</a></li>
+                        <li><a class="text-decoration-none" href="#about">About Us</a></li>
+                        <li><a class="text-decoration-none" href="#footer">Shop Locations</a></li>
                         <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li><a class="text-decoration-none" href="#contact">Contact</a></li>
                     </ul>
                 </div>
 

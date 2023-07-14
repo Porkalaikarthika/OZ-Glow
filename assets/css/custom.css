@@ -1,3 +1,66 @@
 /*
 Custom Css
 */
+.app-title {
+    color: #b7f0c6 !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(45deg, #b7f0c6, #ffffff, rgb(251, 255, 0), rgb(255, 251, 0), #b7f0c6, #f6df12, #eccd42);
+}
+
+.app-title-inner {
+    color: #b7f0c6 !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(45deg, #f40001, #ec5242, rgb(255, 64, 0), rgb(255, 123, 0), #a00000, #f65112, #ec5242);
+}
+.app-title-darker {
+    color: #b7f0c6 !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(45deg, #eb7e36, #098abd, rgb(255, 115, 0), rgb(255, 187, 0), #098abd, #f69312, #ec7242);
+}
+
+.nav-area {
+    background-color: #0593ca;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.img-fluid {
+    border: #fff solid 2px;
+    border-radius: 5px;
+}
+
+.contact-section {
+    width: 100%;
+    background-color: #6070ff;
+    border-top-left-radius: 7em;
+    padding: 0 2em;
+    color: #fff;
+}
+#contact {
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 1em;
+}
+
+.contact-button {
+    background-color: #e3e3e3;
+    border: solid 2px #ea8707;
+    border-radius: 1em;
+    min-width: 15em;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    /* width: 1em !important; */
+}
+
+.hr-sm {
+    max-width: 5em;
+    margin: 0 auto;
+    border: solid #f7b20d 0.05em;
+    opacity: 100;
+}
