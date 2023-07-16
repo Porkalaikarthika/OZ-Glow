@@ -13,7 +13,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Todo List App',
+            title: 'OZ Glow Stylist Shop App',
             template: './src/index.html',
         }),
     ],

@@ -2,7 +2,7 @@
 <div align="center">
   <img src="assets/images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>Todo List Project</b></h3>
+  <h3><b>OZ Glow Stylist Shop Project</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -32,13 +32,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Todo List] <a name="about-project"></a>
+# 📖 [OZ Glow Stylist Shop] <a name="about-project"></a>
 
 > This project was created as part of Microverse module 2 week one tasks.
 It gives the student an opportunity to play around with HTML, CSS, and Github.
 It also allows the student to showcase what they can do to the future employee.
 
-**[Todo List]** is a project that allows one to store and manage list of todos.
+**[OZ Glow Stylist Shop]** is a project that allows one to store and manage list of todos.
 
 ## 🛠 Built With <a name="built-with"></a>
 
